@@ -1,11 +1,11 @@
 <?php
 use Illuminate\Support\Facades\Route;
 
-Route::get('greeting', function () {
-    return 'Hi, this is your awesome package! rswa';
-});
+// Route::get('greeting', function () {
+//     return 'Hi, this is your awesome package! rswa';
+// });
 
-Route::get('Rswa/test', 'EdgeWizz\Rswa\Controllers\RswaController@test')->name('test');
+// Route::get('Rswa/test', 'EdgeWizz\Rswa\Controllers\RswaController@test')->name('test');
 
 Route::post('fmt/Rswa/store', 'EdgeWizz\Rswa\Controllers\RswaController@store')->name('fmt.rswa.store');
 
